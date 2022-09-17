@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+  font-size: 1.5rem;
+  background: #C9D6FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#toggle {
+  margin: 1em auto 0;
+  width: 100%;
+}
+
+.input-container, 
+.list {
+  margin: 1em;
+  padding: .75em 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px;
+}
+
+/* INPUT FIELD */
+.input-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  width: 75%;
+  font-size: 1em;
+  text-indent: 5px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 1em 2em;
+  font-size: 0.75em;
+  cursor: pointer;
+  border-radius: .5em;
+}
+
+/* LIST FIELD */
+ul {
+  list-style: none;
+}
+
+li {
+  padding: .50em 0;
+  display: flex;
+  justify-content: space-between;
+  overflow-wrap: anywhere;
+}
+
+.icon {
+  padding: 0 0.2em;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+#check-icon {
+  margin-left: auto;
+}
